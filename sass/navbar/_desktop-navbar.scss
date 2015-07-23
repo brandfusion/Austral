@@ -1,0 +1,153 @@
+
+.menu-links {
+	background-color: transparent;
+	.nav li a {
+		background-color: $yellow;
+		border-right: 1px solid #eee;
+		background-color: $blue-light;		
+		font-size: 12px;		
+		padding: 0px;
+		background-color: transparent;
+		margin-top: 6px;
+		font-weight:700;
+		text-transform: uppercase;
+		color: $blue-light;	
+		&:hover {
+			background-color: transparent;
+		}
+	}
+	li {
+		padding-bottom: 6px;
+		transition: all 0.2s ease-in;
+		&:hover {
+			background-color: $yellow;
+			color:  $blue-light;
+			a {
+				color: #000;
+			}
+		}
+		&:last-child:hover a {
+			background-color: transparent;
+		}
+		&:last-child a {
+			border-right: 0px;
+		}
+	}
+}
+
+.main-nav {
+	margin-top: -30px;
+}
+
+.menu3dmega {
+	.inner-promo {
+		a:hover {
+			background-color: transparent;
+		}
+	}
+	li {		
+		border-bottom: 1px solid #eee;
+		position: relative;
+		.content {
+			display: none;
+			border: 1px solid $blue-light;
+			overflow: hidden;
+			padding: 15px;
+			position: absolute;	
+			left: 100%;
+			top: 0px;
+			width: 800px;
+			z-index: 100;
+			background-color: #fff;
+		}
+		.content.narrow {
+			width: 562px;
+		}	
+	}
+	li:hover .content {
+			display: block;
+			
+	}	
+	.inner-content {
+		max-width: 532px;
+		img {
+			border-bottom: 1px solid $blue-light;
+			width: 103px;
+			height: 104px;			
+		}
+		a {
+			display: block;
+			color: #000;
+			line-height: 20px;
+			padding-left: 0px;
+			font-size: 12px;
+			font-weight: 400;
+			background-color: #fff;
+			transition: all 0.2s ease-in;
+			text-align: center;
+			min-height: 40px;
+			&:hover {
+				background-color: #fff;
+				text-decoration: underline;
+				color:#000;
+			}
+		}
+	}
+	.inner-promo {
+		img {
+			border: 1px solid $red;
+			height: 240px;
+		}
+	}
+
+	a {
+		display: block;
+		color: #000;
+		line-height: 32px;
+		padding-left: 10px;
+		font-size: 12px;
+		font-weight: 600;
+		background-color: #fff;
+		transition: all 0.2s ease-in;
+		&:hover {
+			color: #ffffff;
+			background-color: #0063BE;
+			.fa-angle-right {
+				color: #fff;
+				transform: translate(3px,0px);
+			}		
+		}
+	}
+	.fa-angle-right {
+		// color: #2A3486;		
+		line-height: 32px;
+		font-size: 12px;
+		margin-right: 10px;		
+		transition: all 0.2s ease-in;
+		float: right;
+	}	
+}
+.left-nav-box {
+	box-shadow: 0px 0px 5px #ccc;
+}
+.left-nav {
+	margin-top: -31px;
+}
+.menu-heading {	
+	p {
+		border-bottom: 1px solid #eee;
+		font-weight: 700;
+		padding:0px;
+		background-color: #fafafa;
+		// height: 29px;
+		line-height: 30px;
+		padding-left: 10px;	
+		width: 100%;
+		display: inline-block;
+		color: #000;
+		font-size: 12px;
+		margin: 0px;
+		text-transform: uppercase;
+	}
+	
+}

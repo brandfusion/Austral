@@ -1,0 +1,210 @@
+#authentication-page .authentication-content{
+	
+	color: #000;
+	.reset-password {
+		text-decoration: underline;
+	}
+	a {		
+		text-decoration: none;
+		font-size: 12px;
+		font-weight: 400;
+		color: #666;		
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.wrap {
+		background-color: #fff;
+	}
+	p {
+		font-size: 12px;		
+		margin: 0px;
+	}
+	h1 {
+		line-height: 34px;
+		font-weight: 600;
+		color: #000;
+		font-size: 14px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		border-bottom: 1px solid #0063BE;
+	}
+	h2 {
+		color: #000;
+		font-size: 16px;
+		margin: 0px;
+		display: block;
+		width: 100%;
+		line-height: 34px;
+		font-weight: 300;
+		background-color: #fafafa;
+		background: white;
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+		background: -moz-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #fafafa));
+		background: -webkit-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+		background: -o-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+		background: -ms-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+		background: linear-gradient(to bottom, #ffffff 0%, #fafafa 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 );
+		border-bottom: 1px solid #eee;
+		margin-bottom: 10px;
+	}
+	h3 {
+		font-size: 18px;
+		font-weight: normal;
+		margin:0 0 15px 15px;
+	}
+	#errormessages {
+		margin:0 0 0 20px;
+        padding:0;
+        ul {
+        	li{
+        		text-decoration: none;
+				font-size: 12px;
+				font-weight: 400;
+				color: #000;
+				line-height:18px;
+				a {
+					color: #3379B8;
+					text-decoration: underline;
+				}
+        	}
+        }
+	}
+	.no-padding-left {
+		padding-left:0;
+	}
+	.account-content {
+		// border: 1px solid #DDD;
+		// padding: 10px 20px;
+		margin-bottom: 20px;
+		img {
+			float: left;
+			margin-top: 4px;
+			margin-right: 5px;
+		}
+		.form-cont {
+			label {
+				padding-left:0 !important;
+			}					
+		}		
+					
+	}
+	.terms {
+		p {
+			input {
+				width: auto;
+				margin-bottom: 5px;
+				vertical-align: middle;
+				margin-right: 5px;
+			}
+			a {
+				color:#3379B8; 
+				font-weight: normal;
+				text-decoration:underline;
+				&:hover {
+					text-decoration:none;
+				}
+			}
+		}
+	}
+	.social-login {
+		padding:0px;
+		
+		.social {
+			width:100%;
+			text-align:left;
+			a {	
+				
+				font-weight: 700;
+				width: auto;
+				height: 28px;
+				display: block;
+				float: left;
+				text-decoration: none;					
+				line-height: 28px;
+				background-repeat: no-repeat;
+				background-position: center right;
+				padding: 0 35px 0 0;
+				margin:0px;
+				margin-right: 15px;
+				text-align: left;
+				margin-top:0;
+				font-size:14px;
+			 	&:hover {
+			 		text-decoration: underline;
+			 	}
+			}
+			a.facebook-login {
+				color: #3b589c;
+				background-image: url("../img/Eurobike/facebook-login.png");			
+			}
+			a.google-login {
+				color: #dd4b39;
+				padding-right:46px;
+				background-image: url("../img/Eurobike/google-login.png");
+			
+			}			
+		}
+	}
+	
+	.account-questions {		
+		clear: both;
+		background-color: #EEEEEE;
+		padding: 15px;
+		display:block;
+		margin: 20px 0 20px 0;
+		background-color: #EEEEEE;
+	}
+	a.login {
+		text-decoration:underline;
+		color:#428bca;
+		&:hover {
+			text-decoration:none;
+		}
+	}
+	
+	
+	label {
+		
+		font-weight: 400;
+		color: #7F7F7E;		
+		padding-left: 0px;
+	}
+	input {
+		width: 420px;
+		height:34px; 
+		padding:0 5px;
+		margin-bottom: 10px;
+		border:1px solid #ddd;
+	}
+	input[type="submit"] {
+			@extend .btn-main;
+			width: 200px;
+			line-height: 34px;
+			padding: 0px;
+			text-align: center;
+			margin-top: 10px;
+			border: none;
+
+		}
+	.new-cont {
+		input {
+			width: 100%;
+			height: 34px;
+			padding:0 5px;
+			border:1px solid #ddd;
+		}
+		input[type="submit"] {
+			@extend .btn-main;
+			width: 200px;
+			line-height: 34px;
+			padding: 0px;
+			text-align: center;
+			margin-top: 10px;
+
+		}
+
+	}	
+}

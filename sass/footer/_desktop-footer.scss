@@ -1,0 +1,310 @@
+.footer {
+	font-size: 12px;
+	padding: 0;
+	color: #333;
+	.title {		
+		color: #000;
+		margin-bottom: 5px;
+		text-transform: uppercase;		
+		font-weight: 600;
+		font-size: 13px;
+	}
+	.container {
+		background: #fff;
+		border-top: 1px solid #eee;
+		max-width: 1140px;
+		margin-top: 20px;
+	}
+	li {
+		line-height: 25px;
+	}
+	a {
+		color: #777;
+		&:hover {
+			text-decoration:underline;
+		}
+	}
+	.social-icons {
+		padding: 10px 0;
+		ul li {
+			display: block;
+			margin-right: 1px;
+			float: left;			
+		}
+		a {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+			width: 55px;
+			height: 55px;
+			line-height: 0px;
+			padding: 0px;
+			background-color: #444444;
+		}
+		.fa {
+			font-size: 18px;
+		}
+		.google-plus a {
+			background-color: $blue-light;
+			color: #fff;
+			transition: all 0.2s ease-in;
+			&:hover {
+				background-color: #dc2310;
+			}
+		}	
+		.linkedin a {
+			background-color: $blue-light;
+			color: #fff;
+			transition: all 0.2s ease-in;
+			&:hover {
+				background-color: #148bba;
+			}
+		}
+		.twitter a {
+			background-color: $blue-light;
+			color: #fff;
+			transition: all 0.2s ease-in;
+			&:hover {
+				background-color: #33bce9;
+			}
+		}
+		.facebook a {
+			background-color: $blue-light;
+			color: #fff;
+			transition: all 0.2s ease-in;
+			&:hover {
+				background-color: #37528d;
+			}
+		}
+
+	}
+
+}
+
+.rec-banner {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 99%;
+	max-height: 65px;
+	border: 1px solid #ddd;
+    .banner {
+	    color: #000;
+	    background: white;
+	    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYWZhZmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	    background: -moz-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+	    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #fafafa));
+	    background: -webkit-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+	    background: -o-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+	    background: -ms-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+	    background: linear-gradient(to bottom, #ffffff 0%, #fafafa 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 );	    
+	}
+	h3 {
+		color: #333;
+		display: block;
+		font-size: 15px;
+		font-weight: 600;
+		margin: 0px;
+		padding: 10px 0px 0px;
+		text-align: left;
+		text-transform: uppercase;
+		width: 100%;
+	}
+	p {
+	    color: #333;	    
+		font-size: 12px;
+		line-height: 16px;
+		padding: 5px 0px 0px 0px;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+	}
+	.text-box {
+		margin-left: 10px;
+	}
+}
+ 
+.services-icon {
+	width: 32px;
+	margin: 15px 0px 15px 15px;
+	float: left;
+}
+
+
+
+
+
+.footer .social-icons ul li {
+	display: block;
+	margin-right: 1px;
+	float: left;
+}
+.footer .social-icons ul li a {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 55px;
+	height: 55px;
+	line-height: 0px;
+	padding: 0px;
+	background-color: #444444;
+}
+.footer .social-icons ul li a .fa {
+	font-size: 18px;
+}
+.footer .copyrights {
+	padding-top: 14px;
+}
+.footer .copyrights .copytxt {
+	padding-bottom: 10px;
+	display: inline-block;
+	font-weight:400;
+	color:#ccc;
+}
+.footer .copyrights .payment-icons {
+	padding-bottom: 10px;
+	float: right;
+	text-align: right;
+}
+.footer .copyrights .payment-icons a {
+	display: inline-block;
+	padding-left: 10px;
+	opacity: 0.5;
+}
+.footer .copyrights .payment-icons a:hover {
+	opacity: 1
+}
+.footer .copyrights .btmlinks {
+	padding-left: 20px;
+}
+
+
+.getintouch img {
+float: left;
+width: 110px;
+height: auto;
+opacity: 0.6;
+}
+
+.rec-banner.hand:hover img {
+	 -webkit-animation-name: ok-animation;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: ok-animation;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+.rec-banner.return:hover img {
+	-webkit-animation-name: rotate-animation;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: rotate-animation;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+.rec-banner.support:hover img {
+	-webkit-animation-name: support-animation;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: support-animation;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+.rec-banner.car:hover img {
+	-webkit-animation-name: transport-animation;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: transport-animation;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@-webkit-keyframes ok-animation {
+    0%   {transform: translate(0px,0px);}   
+    100% {transform: translate(0px,-5px);}
+}
+
+/* Standard syntax */
+@keyframes ok-animation {
+    0%   {transform: translate(0px,0px);}   
+    100% {transform: translate(0px,-5px);}
+}
+
+@-webkit-keyframes rotate-animation {
+    0%   {transform: rotate(0deg);}   
+    100% {transform: rotate(-360deg);}
+}
+
+/* Standard syntax */
+@keyframes rotate-animation {
+    0%   {transform: rotate(0deg);}   
+    100% {transform: rotate(-360deg);}
+}
+@-webkit-keyframes support-animation {
+    0%   {transform: rotate(0deg);} 
+    25%   {transform: rotate(-10deg);}
+    75%   {transform: rotate(20deg);}    
+    100% {transform: rotate(0deg);}
+}
+
+/* Standard syntax */
+@keyframes support-animation {
+    0%   {transform: rotate(0deg);} 
+    25%   {transform: rotate(-10deg);}
+    75%   {transform: rotate(20deg);}    
+    100% {transform: rotate(0deg);}
+}
+
+@-webkit-keyframes transport-animation {
+    0%   {transform: translate(0px,0px);} 
+    50%   {transform: translate(0px,-2px);} 
+    51%   {transform: translate(0px,0px);}
+    99% {transform: translate(0px,-2px);}
+    100%   {transform: translate(0px,0px);}
+}
+
+/* Standard syntax */
+@keyframes transport-animation {
+    0%   {transform: translate(0px,0px);} 
+    50%   {transform: translate(0px,-2px);} 
+    51%   {transform: translate(0px,0px);}
+    99% {transform: translate(0px,-2px);}
+    100%   {transform: translate(0px,0px);}
+
+}

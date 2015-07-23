@@ -1,0 +1,65 @@
+// .container {
+// 	width:1170px;
+// }
+.subscribe {
+	background-color: #fafafa;
+	padding: 10px;
+	h3 {
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.form-control {
+		border-radius: 0px;
+		max-width: 128px;
+		float: left;
+	}
+	input[type="submit"] {
+
+	}
+	margin: 15px 0px;
+}
+
+
+.box-heading {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 34px;
+	padding: 0px 0px;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;	
+	border-top: 0px;
+	background-color: #fafafa;		
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fafafa));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#fafafa 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#fafafa 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#fafafa 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#fafafa 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 );
+	border-bottom: 1px solid #eee;
+}
+.article-list {
+	margin-bottom: 25px;	
+	h4 {
+		margin: 10px 0px 5px;	
+		font-weight: 300;
+		font-size: 16px;
+		font-weight: 400;
+		color: #1f318c;
+		color: $blue-light;
+		font-weight: 600;
+	}
+}
+.brands-carousel {
+	margin-bottom: 15px;
+	.owl-item img {
+		width: auto;
+	}
+}

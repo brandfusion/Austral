@@ -1,0 +1,408 @@
+#account-page {
+	color: #000;
+	min-height: 400px;
+	.newsletter {
+		padding: 0px;
+		margin: 0px;
+		text-align: left;
+		font-family: "Open Sans", sans-serif;
+	}
+	.wrap {
+		background-color: #fff;	
+		padding: 20px 0;	
+		margin-bottom: 0;
+	}
+	h3 {
+		color: #666666;		
+		font-size: 16px;
+		font-weight: 700;
+		margin: 0px 0px 10px 0px;
+	}
+	
+	.account-block {
+		background-color: #fafafa;
+		padding: 10px;
+
+		a {			
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 18px;
+			color: #000;
+			display:block;
+			padding-left: 0;
+		}
+		h3 {
+			margin: 0;			
+			font-size: 14px;
+			font-weight: 600;
+			line-height: 24px;
+			color: #000;
+			padding: 0px;
+		}
+	}
+	
+	.profile {
+		margin-bottom: 10px;
+		padding-left: 0px;
+		margin-top: 20px;
+		h1 {			
+			margin: 0px;			
+			font-size: 16px;
+			padding-left: 0px;
+			width: 100%;			
+			border-bottom: 1px solid #0063BE; 
+			font-weight: 600;
+			line-height: 34px;
+		}
+		img {
+			width: 10%;
+			float: left;
+		}
+		a {
+			color: #000;
+			font-size: 10px;
+			text-decoration: none;
+			margin-top: 5px;
+			color: #666;
+			line-height: 16px;
+			float: right;
+			i {
+				color: $blue-light;
+				font-size: 12px;
+				vertical-align: middle;
+				margin-right: 5px;
+			}
+		}
+		p {			
+			font-size: 12px;			
+			margin: 5px 0px 0px 0px;
+			margin: 0px;
+			line-height: 34px;
+			color: #555;
+		}
+	}
+	.content {
+		padding-left: 0px;
+		.account-header {		
+					
+
+			h2 {							
+				color: #000;
+				font-size: 14px;
+				margin: 0px;
+				display: block;
+				width: 100%;
+				line-height: 34px;
+				font-weight: 400;
+				background-color: #fafafa;
+				background: white;
+				background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+				background: -moz-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #fafafa));
+				background: -webkit-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+				background: -o-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+				background: -ms-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+				background: linear-gradient(to bottom, #ffffff 0%, #fafafa 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 );
+				border-bottom: 1px solid #eee;
+				margin-bottom: 10px;
+			}
+			a {
+				line-height: 36px;
+				float: right;				
+				font-weight: 400;
+				text-decoration: underline;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+		.account-header-black {			
+			line-height: 36px;
+			background-color: #000;
+			width: 100%;
+			color: #FFF;			
+			font-size: 14px;			
+			padding: 0px 20px;
+			height: 30px;			
+
+			h2 {							
+				font-size: 14px;
+				float: left;
+				margin: 0px;
+				line-height: 30px;
+			}	
+		}	
+		
+	}
+	.address {
+		font-size:12px;
+		line-height:20px;
+		.box-address {
+			height: 200px;
+			margin:0px 0 20px 0;			
+			border: 1px solid #DDD;
+			padding:15px 20px 25px 20px;
+			background-color: #fff;
+		}
+		.txt-address {
+			padding:5px 0 0 0px;
+		}
+		input {
+			vertical-align:middle;
+			margin:-2px 5px 0 -2px;
+			&[type="submit"] {
+			 //    color: #fff;
+				// margin: 15px 0 0 0;
+				// padding: 0px;
+				// border: none;
+				// border-radius: 0px;
+				// width: 80px;
+				// height: 25px;
+				// display:block;
+				// background-image: url("../img/eurobike/btn-blue.png");
+				// background-color: #1b609e;
+				// background-repeat: no-repeat;
+				// background-position: left top;
+				// text-transform: uppercase;
+				// padding-left: 10px;
+				// font-size: 10px;	
+				margin: 5px 0px;
+				@extend .btn-main;
+			}
+		}
+		.delete {
+		    font-size:12px;
+		    line-height:18px;
+		    display:block;
+		    margin:5px 0 0 0;
+		    text-decoration:underline;
+		    color:$red;
+		    &:hover {
+		    	text-decoration:none;
+		    }
+		}
+		a.default {
+			font-size:12px;
+			line-height:18px;
+		    display:block;
+		    text-decoration:underline;
+		    color:#999999;
+		    margin-top:3px;
+		    &:hover {
+		    	text-decoration:none;
+		    }
+		}
+		p.default {
+			font-size:12px;
+			line-height:18px;
+		    display:block;
+		    text-decoration:none;
+		    color:#999999;	
+		    margin-top:3px;	 
+		    strong {
+		    	color: #000;
+		    	font-weight: 600;
+		    	&:before {
+		    		font-family: "FontAwesome";
+		    		content: "\f00c";
+		    		margin-right: 5px;
+		    	}
+		    }   
+		}
+	}
+	.account-content {
+		font-size: 12px;		
+		margin-bottom: 25px;
+		p {
+			margin-bottom: 5px;
+		}
+		input {
+			&[type="password"] {
+				border: 1px solid #DDD;				
+				width: 150px;
+				height: 20px;
+				padding: 3px;
+				clear:both;
+				margin: 5px 0px;
+			}
+			&[type="text"] {
+				border: 1px solid #DDD;				
+				width: 150px;
+				height: 20px;
+				padding: 3px;
+				margin: 5px 0px;
+			}
+		}
+		select {
+			width:40%;
+			margin:5px 0;
+		}
+		label {
+			font-weight:400;
+			width:100px; 
+			display:inline-block;			
+		}	
+		&.add {
+			text-align:center;
+			a {
+			 //    color: #fff;
+				// margin: 10px auto 5px auto;
+				// padding: 6px 0 0 20px;
+				// border: none;
+				// border-radius: 0px;
+				// width: 145px;
+				// height: 25px;
+				// display:block;
+				// text-align:left;
+				// background-image: url("../img/eurobike/btn-blue.png");
+				// background-color: #1b609e;
+				// background-repeat: no-repeat;
+				// background-position: left top;
+				// text-transform: uppercase;
+				// font-size: 10px;	
+			}
+		}		
+		&.form-account {
+			width:100%;
+			p {
+				font-size:11px;
+				margin:15px 0 20px 0;
+				padding:0;
+			}
+			label {
+				font-size:12px;
+				line-height:14px;
+			}
+			input {
+				&[type="text"] {
+					border: 1px solid #DDD;				
+					width: 84.5%;
+					height: 28px;
+					padding: 3px 5px;
+					margin: 5px 0px;
+				}
+				&.grey-btn {
+					float:right;
+					background:#e9e9e9;
+					color:#222;
+					font-size:12px;
+					margin:10px 0 0 10px;
+					padding:4px 20px;
+					border:none;
+				}
+				&[type="submit"] {
+					@extend .btn-main;
+					width: 200px;
+					margin-left: 5px;
+				}
+			}
+		}	
+	}
+	.bonus-block {
+		width: 50%;
+		img {
+			margin-right: 20px;
+		}
+		p {
+			color: #3379B8;
+			font-size: 16px;
+			line-height: 60px;
+			font-weight: 700;
+		}
+	}
+	.list-block {
+		padding-top: 25px;
+		width: 50%;
+		ul {
+			float: right;
+			li {
+				float: left;
+				margin-right: 10px;
+				p {
+					text-align: center;					
+					font-size: 14px;
+				}
+			}
+		}
+	}
+	.btn-change-password {		
+		margin-top: 5px;
+		border:none;
+		margin-bottom:10px;		
+	}
+	.newsletter {
+		input {
+			margin: 0px 5px 0px 0px;
+			vertical-align: middle;
+		}
+	}
+	h4 {
+		background-color: #332C34;
+		color: #FFF;		
+		font-size: 14px;
+		font-weight: 700;
+		padding: 5px;		
+		line-height: 16px;
+		margin: 0px;
+	}
+
+    .order {
+    	tr {
+    		td {
+    			font-size:12px;
+    			color:#000;
+    			padding:2px 0;
+    			line-height:18px;
+    		}
+    	}
+    }
+	.order-tab {
+		/* border-left:1px solid #e9e9e9; */
+		tr {
+			&.CustomerCenterMenu {
+				background:#eee;
+			}			
+			th {
+				color:#000000;
+				font-size:12px;
+				font-weight:400;
+				padding:5px 10px;
+				border-right:1px solid #ffffff;
+				.sort {
+					float:right;
+					width:auto;
+					margin:5px 0 0 0;
+					a {
+						float:left;
+						margin-left:3px;
+					}
+				}
+			}
+			td {
+				font-size:12px;
+				line-height:18px;
+				color:#000;
+				padding:5px 10px;
+				/*  border-right:1px solid #e9e9e9;
+				border-bottom:1px solid #e9e9e9;	 */
+				&.order-id {
+					a {
+						color:#3379B9;
+					}
+				}			
+				a {
+					color:#000;
+					margin:0 5px 0 0;
+					display:inline-block;
+				}
+			}
+			&.no-border {
+				td {
+					border-right: none;
+				    border-bottom: none;	
+				}
+			}
+		}
+	}
+}

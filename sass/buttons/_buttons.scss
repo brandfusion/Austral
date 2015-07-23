@@ -1,0 +1,84 @@
+.btn-main {
+	background-color: $blue-light;
+	line-height: 32px;
+	border: 1px solid $blue-light;
+	padding: 0px 15px;
+	width: auto;
+	color: #fff;
+	height: 34px;
+	transition: all 0.2s ease-in;
+	display: inline-block;
+	&:hover {
+		background-color: $yellow;
+		color: $blue-light;
+		color: #000;
+		border-color: $yellow;
+	}
+}
+.btn-black {
+	@extend .btn-main;
+	background-color: #333;
+	border-color: #333;
+	// text-transform: capitalize;	
+}
+.btn-gray {
+	@extend .btn-main;
+	background-color: #fff;
+	color: #000;
+	border-color: #ddd;
+	&:hover {
+
+	}
+}
+.btn-black {
+	@extend .btn-main;
+	background-color: #333;
+	color: #fff;
+	border-color: #333;
+}
+.btn-home-add {
+	@extend .btn-main;
+	background-color: $yellow;
+	color: #000;
+	border-color: $yellow;
+	padding: 0px 45px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 12px;
+	&:hover {
+		background-color: $blue-light;
+		color: #fff;
+		border-color: $blue-light;
+	}
+}
+.btn-comentariu {
+	font-size: 12px;
+	transition: all 0.2s ease-in;
+	color: #000;
+	&:hover {
+		text-decoration: underline;
+		color: #000;
+	}
+	.fa {
+		font-size: 10px;
+		margin-right: 5px;
+	}
+}
+.btn-checkout {
+	@extend .btn-home-add;
+	padding: 0px;
+	width: 50%;
+	margin-top: 5px;
+}
+.btn-finalize {
+	@extend .btn-checkout;
+		padding: 0px 20px;
+		width: auto;	
+}
+.btn-reset {
+	@extend .btn-main;
+	background-color: $red;
+	color: #fff;
+	border-color: $red;
+}
+

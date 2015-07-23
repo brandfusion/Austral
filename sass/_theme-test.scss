@@ -1,0 +1,187 @@
+//Header
+
+.header-style {
+	background-image: url("../img/sprinkles-blue2.png");
+	background-repeat: repeat;
+	background-position: top left;	
+	color: #fff;
+	border-bottom: none;
+	background-color: #fff;
+}
+.header-link {
+	color: #fff;	
+	&:hover {
+		color: #ff9600;		
+	}
+
+}
+.header-cos-link {
+		text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+		}
+}
+.header-search-input-style {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 0px;
+	outline: none;
+	&:hover {
+	 	border: 1px solid #ff9600;		
+	}
+}
+.header-border {
+	border-color: #fff; 
+}
+.instant_search {
+	background-color: #fff;
+	ul span {
+		color: #000;
+	}
+	li:hover span {
+		color: #fff;		
+	}
+	ul li:hover {
+		background-color: #000;
+	}
+}
+.main-nav-style {
+	background-image:  none; 
+	background-repeat: repeat-x;
+	background-position: top left;
+	border: none;	
+	background-color: #000;
+	border-bottom: 5px solid #ff9600;
+	ul li {
+		border-right: 1px solid #17459a;
+	}
+}
+
+// .dropdown-menu .main-nav-link {	
+// 	background-image: none;
+// 	background-color: #000;	
+// 	.activeitem {
+		// background:$navItemBgImgHover no-repeat top left;
+		// color: $navItemColorHover;
+// 	}
+// 	&.more {
+// 		background-image: none;
+// 		background-color: #17459a;		
+// 	}
+// 	&:hover, .more:hover {
+// 		background-image: none;
+// 		background-color: #ff9600;
+// 		color: #000;
+// 	}	
+// }
+.body-style {
+	background-image: url("../img/sprinkles-gray.png");
+	background-repeat: repeat;
+	background-position: top left;
+	background-color: #000;
+}
+.body-wrapper-style {
+	background-image: url("../img/eurobike/body-bg-variant.jpg");
+	background-repeat: no-repeat;
+	background-position: center 144px;	
+}
+.M2 {
+	background:#fff;	
+	border-top: 5px solid #ff9600;
+	border-left: none;
+}
+.main-nav-l2-style {
+	background-image: none;
+	background-color: #000;
+	color: #fff;
+	&:hover{		
+		.fa {
+			color: #fff;
+		}
+	}
+}
+.megaMenu .main-nav-l3-style {
+	background-image: none;
+	background-color:#17459a;
+	color: #fff;
+}
+.main-nav-l3-style {
+	background-image: none;
+	background-color:#000;
+	color: #fff;
+}
+.main-nav-l4-style {
+	background-image: none;
+	background-color: #000;
+	color: #fff;	
+}
+.main-nav-link:hover {
+	background-image: none;
+	background-color: #ff9600;
+	color: #000;
+}
+.more {
+	background-color: #17459a;;
+	color:#fff;
+}
+.btn-1 {
+	background-image: none;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	&:hover {
+		background-color: #ff9600;
+		color: #fff;
+		border: none;
+	}
+}
+.btn-4 {
+	background-image: none;
+	background-color: #aaa;
+	border: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	&:hover {
+		background-color: #ff9600;
+		color: #fff;
+		border: none;
+	}	
+}
+.breadcrumbs a {
+	color: #000;
+}
+.btn-nextstep {	
+	&:hover {		
+		background-image: none;	
+		background-color: #ff9600;	
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+// FAST TEST
+#cart-page .row-cos h3 a {
+	color: #17459a;
+	text-transform: none;
+}
+#product-page .tab-navigation li.active a {
+	background-color: #000;
+	background-image: none;
+}
+#product-page .tab-navigation li a:hover {
+	background-color: #000;
+	background-image: none;
+	color: #fff;
+}
+#product-page .tab-navigation li a {
+	// font-family: 'Open Sans', sans-serif;
+	// font-weight: 700;
+}
+// FAST TEST
