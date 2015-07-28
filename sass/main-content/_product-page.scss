@@ -334,7 +334,7 @@
 		font-size: 12px;
 		font-weight: 600;
 		border-bottom: 1px solid #eee;
-		padding-bottom: 5px;
+		padding-bottom: 10px;
 	}	
 	.product-price {
 		// margin-bottom: 10px;
@@ -468,6 +468,9 @@
 .product-image-panel {		
 	overflow: hidden;
 	// max-height: 260px;	
+	img {
+		width: 100%;
+	}
 }
 .tab-navigation {
 	margin: 0px;

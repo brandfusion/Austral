@@ -2,9 +2,8 @@
 .menu-links {
 	background-color: transparent;
 	.nav li a {
-		background-color: $yellow;
-		border-right: 1px solid #eee;
-		background-color: $blue-light;		
+		background-color: $yellow;		
+		/* background-color: $blue-light; */		 
 		font-size: 12px;		
 		padding: 0px;
 		background-color: transparent;
@@ -19,6 +18,8 @@
 	li {
 		padding-bottom: 6px;
 		transition: all 0.2s ease-in;
+		border-right: 1px solid #eee;
+
 		&:hover {
 			background-color: $yellow;
 			color:  $blue-light;
@@ -29,7 +30,7 @@
 		&:last-child:hover a {
 			background-color: transparent;
 		}
-		&:last-child a {
+		&:last-child {
 			border-right: 0px;
 		}
 	}

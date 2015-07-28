@@ -21,6 +21,12 @@
 	border-color: #333;
 	// text-transform: capitalize;	
 }
+.btn-blue {
+	@extend .btn-main;
+	background-color: #0063BE;
+	border-color: #0063BE;
+	// text-transform: capitalize;	
+}
 .btn-gray {
 	@extend .btn-main;
 	background-color: #fff;
