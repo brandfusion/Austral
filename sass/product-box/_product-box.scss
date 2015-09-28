@@ -1,17 +1,28 @@
 .product-box {	
-	height: 280px;
-	&.homepage-box {
-		height: 250px;
+	span {
+		display:block;
+	}
+	.product-image {
+		height:170px; 
+		overflow:hidden;
+		img {
+			margin: 0 auto;
+			display:block;
+			max-height: 160px;
+			width: auto;
+		}
+
 	}
 	.product-title {
-		text-align: center;		
-		// h2 {
-		// 	margin: 0px;
-		// 	font-size: 12px;
-			
-		// }
-		height: 37px;
+		text-align: center;				
+		height: 30px;
 		overflow: hidden;
+		margin-bottom: 5px;
+		font-size: 12px;
+		color: #000;
+		font-weight: 600;
+		line-height: 1.3;	
+		display: inline-block;
 		a {
 			font-size: 12px;
 			color: #000;
@@ -73,15 +84,7 @@
 	float: left;
 	margin-right: 5px;
 }
-// .regular-carousel {
-// 	.owl-controls {
-// 	position: absolute;
-// 	right: 16px;
-// 	top: -24px;
-// 	width: 30px;
-// 	}
-// }
-/*  afisare  product-list   */
+
 .list-view {
 	width:100%;
 	clear:both;

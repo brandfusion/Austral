@@ -43,6 +43,7 @@
 	margin-left: 55px;
 	width: 100%;
 	max-width:500px;
+	position:relative;
 	input[type="text"] {
 		padding-left: 10px;
 		padding-right: 0px;
@@ -159,3 +160,60 @@
 	margin-bottom: 15px;
 }
 
+
+.instant_search {
+	background: #e5e5e5; 
+	color: #222226; 
+	width: 100%;
+	position: absolute ;
+	top: 100%; 
+	left: 0;
+	z-index: 999;
+
+	ul {    
+		display: block; 
+		margin: 0 0 0 0 ;
+		padding: 0 ;
+		height: 300px; 
+		overflow-y: scroll;
+		border-top: 1px solid #e5e5e5;
+		border-bottom: 1px solid #e5e5e5;		
+		li {
+			list-style-type: none; 
+			padding: 7px 0 ;
+			clear: both; 
+			float: left ;
+			width: 100% ;
+			border-bottom: 1px dotted #fff;
+		}
+		li a {
+			color: #222226;
+			font-size: initial;
+			&:hover {
+				background: #f6f6f6;	
+			}
+		}  
+		li a img {
+			float: left; 
+			margin-left: 10px ;
+			vertical-align: top ;
+			max-width: 45px;
+		}
+		li a span {
+			margin-left:15px; 
+			float: left;
+			width: 65%;
+			word-break: break-all; 
+			font-size: 0.7em; 
+			vertical-align: top ;	
+		}
+		li a span.price {
+			margin-left: 0px; 
+			float: left; 
+			width: 100% ;
+			font-size: 1.2em ;
+			color: #ef2424;
+		}
+		    
+	}     
+}
